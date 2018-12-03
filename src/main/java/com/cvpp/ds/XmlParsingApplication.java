@@ -22,7 +22,6 @@ public class XmlParsingApplication implements CommandLineRunner {
 
 	@Override
 	public void run(String... args) throws Exception {
-		// TODO Auto-generated method stub
 		XmlParser parser = new XmlParser();
 		parser.Parse();
 //		parser.create();
